@@ -1,0 +1,607 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* INICIO */
+/* Header */
+
+header {
+    background-color: #f19c79;
+    justify-content: space-evenly;
+    align-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+header img {
+    max-width: 100%;
+    width: 160px;
+}
+
+/* Main */
+
+h1, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.h4-center {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.btn-center {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-inner {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Section */
+
+.sectiongreen {
+    background-color: #d4e09b;
+}
+
+.h3-center {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.iconify  {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+p {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.grid-icons {
+    display: grid;
+    grid-template-areas: 
+        "icon1"
+        "icon2"
+        "icon3";
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    row-gap: 20px;
+    text-align: center;
+}
+
+@media (min-width: 768px) {
+    .grid-icons {
+        display: grid;
+        grid-template-areas:
+            "icon1 icon2 icon3";
+        grid-template-columns: 3;
+        grid-template-rows: 1;
+        column-gap: 30px;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Section */
+
+.h3-left {
+    text-align: left;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+ul li {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.grid-pancakes {
+    display: grid;
+    grid-template-areas: 
+        "pancakes1"
+        "pancakes2";
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    row-gap: 10px;
+    text-align: left;
+    padding: 5px;
+}
+
+@media (min-width: 1200px) {
+    .grid-pancakes {
+        display: grid;
+        grid-template-areas:
+            "pancakes1 pancakes2";
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        column-gap: 180px;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+/* Section */
+
+.h3-right {
+    text-align: right;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.p-right {
+    text-align: right;
+    padding: 5px;
+}
+
+.btn-leermas {
+    text-align: right;
+}
+
+.btn-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Section */
+
+.quote1 img {
+    height: 130px;
+    width: 10%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 30px;
+}
+
+h6 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.grid-quote {
+    background-color: #cbdfbd;
+    display: grid;
+    grid-template-areas: 
+        "quote1"
+        "quote2"
+        "quote3";
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    text-align: center;
+}
+
+/* Section: suscribe */
+
+.suscribe {
+    text-align: center;
+    padding: 20px;
+}
+
+.form {
+    display: grid;
+    grid-template-areas: 
+        "name"
+        "email"
+        "send";
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+    row-gap: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media (min-width: 768px) {
+    .form {
+        display: grid;
+        grid-template-areas:
+            "name email send";
+        grid-template-columns: 3;
+        grid-template-rows: 1;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+}
+
+/* Footer */
+
+footer {
+    background-color: #f19c79;
+    display: grid;
+    grid-template-areas: 
+    "media logo copy";
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    column-gap: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.media {
+    display: grid;
+    grid-template-areas: 
+    "instagram facebook youtube";
+    grid-template-columns: 3;
+    grid-template-rows: 1;
+    column-gap: 20px;
+}
+
+#icon1 {
+    width: 20px;
+    height: 20px;
+}
+
+#icon2 {
+    width: 20px;
+    height: 20px;
+}
+
+#icon3 {
+    width: 20px;
+    height: 20px;
+}
+
+footer img {
+    max-width: 100%;
+    width: 160px;
+}
+
+.copy {
+    font-size: small;
+}
+
+/* SOBRE MI */
+/* Main */
+
+.intro {
+    display: grid;
+    grid-template-areas:
+    "bio"
+    "nutri";
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.nutri img {
+    height: 300px;
+    width: 40%;
+}
+
+@media (min-width: 1200px) {
+    .intro {
+        display: grid;
+        grid-template-areas:
+        "bio nutri";
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        text-align: left;
+        align-items: center;
+        justify-content: center;
+        column-gap: 20px;
+        padding: 10px;
+    }
+    
+    .nutri img {
+        margin: 0;
+        height: 150px;
+        width: 100%; 
+    }  
+}
+
+/* Section */
+
+#green {
+    background-color: #d4e09b;
+}
+
+/* Section */
+
+.grid-methods {
+    display: grid;
+    grid-template-areas: 
+        "inperson"
+        "virtual";
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    row-gap: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .grid-methods {
+        display: grid;
+        grid-template-areas:
+            "inperson virtual";
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+} 
+
+/* RECETAS */
+/* Section */
+
+.card-img {
+    height: 600px;
+    width: 100%;
+}
+
+.card-title, .card-text {
+    color: black;
+    text-align: center;
+}
+
+/* Section */
+
+.grid-cake {
+    display: grid;
+    grid-template-areas: 
+        "cake1"
+        "cake2";
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    row-gap: 10px;
+    text-align: left;
+    padding: 5px;
+}
+
+@media (min-width: 1200px) {
+    .grid-cake {
+        display: grid;
+        grid-template-areas:
+            "cake1 cake2";
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        column-gap: 180px;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+.btn-left {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Main */
+
+.img1 {
+    padding: 20px;
+}
+
+.papas {
+    padding: 20px;
+}
+
+.btn-right {
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.img2 {
+    padding: 20px;
+}
+
+.budin {
+    padding: 20px;
+}
+
+.grid-stars {
+    display: grid;
+    grid-template-areas: 
+    "papas"
+    "img1"
+    "budin"
+    "img2";
+    grid-template-columns: 1;
+    grid-template-rows: 4;
+    row-gap: 10px;
+    text-align: center;
+    padding: 5px;
+}
+
+@media (min-width: 1200px) {
+    .grid-stars {
+        display: grid;
+        grid-template-areas:
+        "img1 papas"
+        "budin img2";
+        grid-template-columns: 2;
+        grid-template-rows: 2;
+        column-gap: 20px;
+        row-gap: 20px;
+        padding: 10px;
+        text-align: left;
+    }
+
+}
+
+/* Section */
+
+.sectionblue {
+    background-color: #cbdfbd;
+}
+
+#tarjeta1, #tarjeta2, #tarjeta3 {
+    background-color: #cbdfbd;
+}
+
+.p-center {
+    text-align: center;
+}
+
+/* TIPS */
+/* Main */
+
+.img-tips {
+    height: 400px;
+    width: 100%;
+}
+
+.img-calcio {
+    height: 300px;
+    width: 100%;
+}
+
+#left, #text-left {
+    text-align: left;
+}
+
+#right, #text-right {
+    text-align: right;
+    padding: 5px;
+}
+
+/* Section */
+
+.grid-lavado {
+    display: grid;
+    grid-template-areas: 
+        "lavar1"
+        "lavar2";
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    row-gap: 10px;
+    text-align: left;
+    padding: 5px;
+}
+
+@media (min-width: 1200px) {
+    .grid-lavado {
+        display: grid;
+        grid-template-areas:
+            "lavar1 lavar2";
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        column-gap: 180px;
+        text-align: left;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+/* CONTACTO */
+/* Main */
+
+#icon-location {
+    width: 20px;
+    height: 20px;
+}
+
+#icon-envelope {
+    width: 20px;
+    height: 20px;
+}
+
+#icon-phone {
+    width: 20px;
+    height: 20px;
+}
+
+.contacto {
+    display: grid;
+    grid-template-areas:
+    "datos"
+    "mapa";
+    grid-template-columns: 1;
+    grid-template-rows: 2;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) {
+    .contacto {
+        display: grid;
+        grid-template-areas: 
+            "datos mapa";
+        grid-template-columns: 1;
+        grid-template-rows: 1;
+        column-gap: 60px;
+
+    }
+}
+
+.datos {
+    text-align: center;
+}
+
+/* Section */
+
+.formulario {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: medium;
+    text-align: center;
+}
+
+label {
+    font-weight: 700;
+}
+
+@media (min-width: 1200px) {
+    .grid-contacto {
+        display: grid;
+        grid-template-areas:
+        "nombreyapellido correo";
+        grid-template-columns: 2;
+        grid-template-rows: 1;
+        column-gap: 20px;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .mensaje {
+        text-align: center;
+    }
+
+    .enviar {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
